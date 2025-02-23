@@ -1,0 +1,14 @@
+# Node.js関連
+node_modules/
+package-lock.json
+
+# 機密ファイル
+.env
+
+# Mac, VSCodeなどの不要ファイル
+.DS_Store
+.vscode
+client/src/pages/regacy/
+
+# Logs
+*.Logs
