@@ -2,8 +2,8 @@
 
 services:
   frontend:
-    image: ihirokicom-client-image  # イメージ名を指定
-    container_name: ihirokicom-client  # コンテナ名を指定
+    image: i-hiroki-client-image  # イメージ名を指定
+    container_name: i-hiroki-client  # コンテナ名を指定
     build:
       context: ./client
       dockerfile: Dockerfile
@@ -20,8 +20,8 @@ services:
   
   # バックエンド未開発なので
   # backend:
-  #   image: ihirokicom-server-image  # イメージ名を指定
-  #   ihirokicom: temp-server  # コンテナ名を指定
+  #   image: i-hiroki-server-image  # イメージ名を指定
+  #   container_name: i-hiroki-server  # コンテナ名を指定
   #   build:
   #     context: ./server
   #     dockerfile: Dockerfile

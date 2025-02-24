@@ -24,7 +24,7 @@ const Header = () => {
           <img src = {menuIcon} alt="menu icon" style={{ width: 48, height: 48 }} />
         </IconButton>
         <Typography variant="h6" sx={{ flexGrow: 1 }}>
-          iHiroki.com
+          i-hiroki
         </Typography>
       </Toolbar>
       

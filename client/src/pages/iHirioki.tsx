@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const IHirokiCom: React.FC = () => {
+const IHiroki: React.FC = () => {
     return (
         <div>
             <h1>製作中</h1>
@@ -11,4 +11,4 @@ const IHirokiCom: React.FC = () => {
     );
 };
 
-export default IHirokiCom;
+export default IHiroki;

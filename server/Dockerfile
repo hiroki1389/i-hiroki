@@ -14,7 +14,7 @@ COPY package*.json ./
 # アプリのソースコードをコピー
 COPY . .
 
-# ポート3001でAPIサーバーを立ち上げる
+# ポート3000を公開
 EXPOSE 3000
 
 # TypeScript サーバーを起動

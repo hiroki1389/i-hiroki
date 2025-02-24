@@ -20,7 +20,7 @@ const HomePage: React.FC = () => {
         <div className="project">
           <div className="project-item">
             <div className="tags-container"></div>
-            <h3>iHiroki.com</h3>
+            <h3>i-hiroki</h3>
             <p>本ホームページです．</p>
             <Link to="pages/IHirokiCom">詳細を見る</Link>
           </div>

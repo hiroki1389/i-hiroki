@@ -2,6 +2,9 @@
 node_modules/
 package-lock.json
 
+# ビルドデータ
+dist/
+
 # 機密ファイル
 .env
 
