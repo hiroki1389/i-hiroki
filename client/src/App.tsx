@@ -1,8 +1,11 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+
+import HomePage from './HomePage'
+
 import Header from './components/Header'
 import Footer from './components/Footer'
-import HomePage from './HomePage'
-import IHirokiCom from './pages/iHirioki'
+
+import IHiroki from './pages/iHirioki'
 import Juvenile from './pages/Juvenile'
 import Research from './pages/Research'
 import AttendanceChecker from './pages/AttendanceChecker'
@@ -18,7 +21,7 @@ function App() {
       <main style={{ paddingTop: '80px' }}>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/pages/IHirokiCom" element={<IHirokiCom />} />
+          <Route path="/pages/IHiroki" element={<IHiroki />} />
           <Route path="/pages/Juvenile" element={<Juvenile />} />
           <Route path="/pages/Research" element={<Research />} />
           <Route path="/pages/AttendanceChecker" element={<AttendanceChecker />} />

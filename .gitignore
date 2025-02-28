@@ -11,7 +11,7 @@ dist/
 # Mac, VSCodeなどの不要ファイル
 .DS_Store
 .vscode
-client/src/pages/regacy/
+regacy/
 
 # Logs
 *.Logs

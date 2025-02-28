@@ -30,7 +30,7 @@ const Header = () => {
       
       {isHomePage && (
         <nav id="nav" style={{ backgroundColor: "#1976d2", padding: "10px 0" }}>
-          <ScrollLink to="about" smooth={true} duration={500} offset={-headerHight}>
+          <ScrollLink to="intro" smooth={true} duration={500} offset={-headerHight}>
             <Button color="inherit">はじめに</Button>
           </ScrollLink>
           <ScrollLink to="projects" smooth={true} duration={500} offset={-headerHight}>
@@ -44,6 +44,9 @@ const Header = () => {
           </ScrollLink>
           <ScrollLink to="qualifications" smooth={true} duration={500} offset={-headerHight}>
             <Button color="inherit">保有資格</Button>
+          </ScrollLink>
+          <ScrollLink to="externalLinks" smooth={true} duration={500} offset={-headerHight}>
+            <Button color="inherit">外部リンク</Button>
           </ScrollLink>
         </nav>
       )}
