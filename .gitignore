@@ -8,6 +8,10 @@ dist/
 # 機密ファイル
 .env
 
+# 大容量ファイル
+*.mov
+*.mp4
+
 # Mac, VSCodeなどの不要ファイル
 .DS_Store
 .vscode
