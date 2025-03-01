@@ -1,5 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
+import ScrollToTop from "./components/ScrollToTop"
+
 import HomePage from './HomePage'
 
 import Header from './components/Header'
@@ -17,6 +19,7 @@ import DoubleBookkeeping from './pages/DoubleBookkeeping'
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Header />
       <main style={{ paddingTop: '80px' }}>
         <Routes>

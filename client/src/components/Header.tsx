@@ -1,6 +1,6 @@
-import { AppBar, Toolbar, Typography, Button, IconButton } from '@mui/material';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { Link as ScrollLink } from 'react-scroll';
+import { AppBar, Toolbar, Typography, Button, IconButton } from '@mui/material';
 
 import menuIcon from '../assets/icon.png';
 
