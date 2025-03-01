@@ -13,18 +13,18 @@ const AttendanceChecker: React.FC = () => {
         <Container maxWidth="md" sx={{ py: 6 }}>
             <Card sx={{ boxShadow: 3, borderRadius: 3 }}>
                 <CardMedia
-                component="img"
-                image={titleImage}
-                alt="本プロジェクトを一枚で伝える画像"
-                sx={{
-                    display: 'block',
-                    marginLeft: 'auto',
-                    marginRight: 'auto',
-                    marginTop: 2,
-                    marginBottom: 2,
-                    maxWidth: '80%',
-                    height: 'auto',
-                }}
+                    component="img"
+                    image={titleImage}
+                    alt="本プロジェクトを一枚で伝える画像"
+                    sx={{
+                        display: 'block',
+                        marginLeft: 'auto',
+                        marginRight: 'auto',
+                        marginTop: 2,
+                        marginBottom: 2,
+                        maxWidth: '80%',
+                        height: 'auto',
+                    }}
                 />
                 <CardContent>
                     <Typography variant="h3" component="h1" gutterBottom align="center">
