@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Card, CardContent, CardMedia, Typography, Button, Container, Grid, List, ListItem } from '@mui/material';
+import { Card, CardContent, CardMedia, Typography, Button, Container, Grid, ListItem } from '@mui/material';
 import GitHubIcon from "@mui/icons-material/GitHub";
 import { Tooltip } from "@mui/material";
 
