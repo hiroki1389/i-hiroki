@@ -35,9 +35,9 @@ const AttendanceChecker: React.FC = () => {
                         概要
                     </Typography>
                     <Typography variant="body1" paragraph>
-                        出席管理表に出席，遅刻，欠席，公欠を記録し，Slackに通知を送るシステムを開発しました．<br />
-                        学生証（Felica）をスキャンした時刻から出席・遅刻を判定して記録します．<br />
-                        例外として，公欠申請や学生証忘れなどによる出席申請を，Google Formからできるようになっています．
+                        出席管理表に出席，遅刻，欠席，公欠を記録し，Slackに通知を送るシステムを開発した．<br />
+                        学生証（Felica）をスキャンした時刻から出席・遅刻を判定して記録する．<br />
+                        例外として，公欠申請や学生証忘れなどによる出席申請を，Google Formからできるようになっている．
                     </Typography>
 
                     <Typography variant="h4" component="h2" gutterBottom>
