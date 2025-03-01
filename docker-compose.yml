@@ -14,24 +14,23 @@ services:
       - /app/node_modules
     networks:
       - web-app-network
-    # depends_on:
-    #   - backend
+    depends_on:
+      - backend
     tty: true
   
-  # バックエンド未開発なので
-  # backend:
-  #   image: i-hiroki-server-image  # イメージ名を指定
-  #   container_name: i-hiroki-server  # コンテナ名を指定
-  #   build:
-  #     context: ./server
-  #     dockerfile: Dockerfile
-  #   ports:
-  #     - "3001:3000"
-  #   volumes:
-  #     - ./server:/server
-  #   networks:
-  #     - web-app-network
-  #   tty: true
+  backend:
+    image: i-hiroki-server-image  # イメージ名を指定
+    container_name: i-hiroki-server  # コンテナ名を指定
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    ports:
+      - "3001:3000"
+    volumes:
+      - ./server:/server
+    networks:
+      - web-app-network
+    tty: true
 
 networks:
   web-app-network:

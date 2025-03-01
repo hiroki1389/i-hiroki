@@ -8,5 +8,5 @@ app.get('/api', (req: Request, res: Response) => {  // reqとresに型を付け�
 
 // サーバーを3000ポートで開始
 app.listen(3000, () => {
-  console.log('Server running on http://localhost:3001');
+  console.log('Server running on http://localhost:3000');
 });

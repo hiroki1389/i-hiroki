@@ -1,6 +1,6 @@
 import { useLocation, useNavigate } from 'react-router-dom';
 import { Link as ScrollLink } from 'react-scroll';
-import { AppBar, Toolbar, Typography, Button, IconButton } from '@mui/material';
+import { AppBar, Toolbar, Typography, Button, IconButton, Box } from '@mui/material';
 
 import menuIcon from '../assets/icon.png';
 
@@ -19,14 +19,16 @@ const Header = () => {
 
   return (
     <AppBar position="sticky">
-      <Toolbar>
-        <IconButton edge="start" color="inherit" aria-label="menu" onClick={handleClick}>
-          <img src = {menuIcon} alt="menu icon" style={{ width: 48, height: 48 }} />
-        </IconButton>
-        <Typography variant="h6" sx={{ flexGrow: 1 }}>
-          i-hiroki
-        </Typography>
-      </Toolbar>
+        <Box onClick={handleClick} sx={{ cursor: "pointer" }}>
+          <Toolbar>
+            <IconButton edge="start" color="inherit" aria-label="menu">
+              <img src={menuIcon} alt="menu icon" style={{ width: 48, height: 48 }} />
+            </IconButton>
+            <Typography variant="h4" sx={{ flexGrow: 1 }}>
+              i-hiroki
+            </Typography>
+          </Toolbar>
+        </Box>
       
       {isHomePage && (
         <nav id="nav" style={{ backgroundColor: "#1976d2", padding: "10px 0" }}>

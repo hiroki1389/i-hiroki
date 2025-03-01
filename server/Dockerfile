@@ -8,7 +8,7 @@ WORKDIR /server
 COPY package*.json ./
 
 # 依存関係をインストール
-#（ここでエラー起きるからバックエンドが必要になるまで一旦放置）
+#（ここでエラー起きるから自分で実行する）
 #RUN npm install
 
 # アプリのソースコードをコピー
@@ -19,6 +19,7 @@ EXPOSE 3000
 
 # TypeScript サーバーを起動
 # CMD ["npx", "ts-node", "src/server.ts"]
+
 # TypeScriptをコンパイル
 #RUN npx tsc
 #CMD ["node", "dist/server.js"]
