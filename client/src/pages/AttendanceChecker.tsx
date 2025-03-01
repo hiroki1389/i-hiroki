@@ -86,14 +86,10 @@ const AttendanceChecker: React.FC = () => {
                     <Typography variant="h4" component="h2" gutterBottom>
                         技術スタック
                     </Typography>
-                    <Typography variant="body1" paragraph>
-                        <strong>nfcpy: </strong>felicaの解析
-                    </Typography>
-                    <Typography variant="body1" paragraph>
-                        <strong>google-auth: </strong>Google Cloudサービスへのアクセス
-                    </Typography>
-                    <Typography variant="body1" paragraph>
-                        <strong>Slack API: </strong>Slack Botの作成
+                    <Typography variant="body1" component="ul" sx={{ paddingLeft: 2 }}>
+                        <li><strong>nfcpy: </strong>felicaの解析</li>
+                        <li><strong>google-auth: </strong>Google Cloudサービスへのアクセス</li>
+                        <li><strong>Slack API: </strong>Slack Botの作成</li>
                     </Typography>
                     
                     <br />
@@ -113,23 +109,21 @@ const AttendanceChecker: React.FC = () => {
                     <Typography variant="h6" component="strong" sx={{ display: 'block', mt: 2 }}>
                         開発過程
                     </Typography>
-                    <List sx={{ paddingLeft: 2 }}>
-                        <ListItem>
-                            <Typography variant="body1">
-                                ・<strong>要件定義:</strong> 必要なデバイスや処理の流れを1週間ほどプロトタイプを作りながら洗い出した
-                            </Typography>
-                        </ListItem>
-                        <ListItem>
-                            <Typography variant="body1">
-                                ・<strong>コーディング:</strong> 要件定義を元にSlack APIやgoogle-aouth, nfcpyを用いて出席管理ツールを作成
-                            </Typography>
-                        </ListItem>
-                        <ListItem>
-                            <Typography variant="body1">
-                                ・<strong>テスト:</strong> 私や友人の学生証を用いてテストした．また，別のPCでもゼロから環境構築して動くことを確認
-                            </Typography>
-                        </ListItem>
-                    </List>
+                    <ListItem>
+                        <Typography variant="body1">
+                            ・<strong>要件定義:</strong> 必要なデバイスや処理の流れを1週間ほどプロトタイプを作りながら洗い出した
+                        </Typography>
+                    </ListItem>
+                    <ListItem>
+                        <Typography variant="body1">
+                            ・<strong>コーディング:</strong> 要件定義を元にSlack APIやgoogle-aouth, nfcpyを用いて出席管理ツールを作成
+                        </Typography>
+                    </ListItem>
+                    <ListItem>
+                        <Typography variant="body1">
+                            ・<strong>テスト:</strong> 私や友人の学生証を用いてテストした．また，別のPCでもゼロから環境構築して動くことを確認
+                        </Typography>
+                    </ListItem>
 
                     <br />
 
