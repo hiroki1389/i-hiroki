@@ -4,6 +4,7 @@ import { Card, CardContent, Typography, IconButton, Grid, Button, Box, Paper } f
 import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow } from '@mui/material';
 import { programmingLanguages, career, qualifications, projects, externalLinks } from './components/HirokiData';
 import { styled } from '@mui/system';
+import { useTranslation } from 'react-i18next';
 
 import './styles.css';
 
@@ -30,24 +31,24 @@ const CardContentWrapper = styled(CardContent)({
 });
 
 const HomePage: React.FC = () => {
+  const { t } = useTranslation('homePage');
+
   return (
     <Box sx={{ p: 4 }}>
       <main id="mainContent">
         {/* はじめにセクション */}
         <Paper sx={{ p: 3, mb: 4 }} id = "intro">
           <Typography variant="h4" gutterBottom>
-            はじめに
+            {t('intro.title')}
           </Typography>
           <Typography variant="body1" paragraph>
-            小林洋輝と申します．現在，立命館大学大学院情報理工学研究科に通っている2回生です．<br />
-            大学では主にメタバースに関する研究を行っています．<br />
-            このサイトでは，主に私が今までに作成した制作物について紹介しています．
+            {t('intro.text')}
           </Typography>
         </Paper>
 
         {/* 制作物一覧セクション */}
         <Typography variant="h4" gutterBottom id = "projects">
-          制作物一覧
+          {t('projects.title')}
         </Typography>
         <Grid container spacing={4}>
           {projects.map((project, index) => (
@@ -57,7 +58,7 @@ const HomePage: React.FC = () => {
                   <Typography variant="h6" component="h3">{project.title}</Typography>
                   <Typography variant="body2" paragraph>{project.description}</Typography>
                   <Button component={RouterLink} to={project.link} variant="outlined" color="primary">
-                    詳細を見る
+                    {t('projects.details')}
                   </Button>
                 </CardContentWrapper>
               </CustomCard>
@@ -67,16 +68,16 @@ const HomePage: React.FC = () => {
 
         {/* 使える言語一覧セクション */}
         <Typography variant="h4" gutterBottom sx={{ mt: 4 }} id="skills">
-          使える言語一覧
+          {t('languages.title')}
         </Typography>
         <Box sx={{ overflowX: 'auto', maxWidth: '100%' }}>
           <TableContainer component={Paper} elevation={3} sx={{ maxWidth: '80%', marginLeft: 0, marginRight: 'auto' }}>
             <Table>
               <TableHead>
                 <TableRow>
-                  <TableCell sx={{ fontWeight: 'bold' }}>言語名</TableCell>
-                  <TableCell sx={{ fontWeight: 'bold' }}>使用歴</TableCell>
-                  <TableCell sx={{ fontWeight: 'bold' }}>主な用途</TableCell>
+                  <TableCell sx={{ fontWeight: 'bold' }}>{t('languages.name')}</TableCell>
+                  <TableCell sx={{ fontWeight: 'bold' }}>{t('languages.experience')}</TableCell>
+                  <TableCell sx={{ fontWeight: 'bold' }}>{t('languages.usage')}</TableCell>
                 </TableRow>
               </TableHead>
               <TableBody>
@@ -94,16 +95,16 @@ const HomePage: React.FC = () => {
 
         {/* 経歴セクション */}
         <Typography variant="h4" gutterBottom sx={{ mt: 4 }} id="career">
-          経歴
+          {t('career.title')}
         </Typography>
         <Box sx={{ overflowX: 'auto', maxWidth: '100%' }}>
           <TableContainer component={Paper} elevation={3} sx={{ maxWidth: '80%', marginLeft: 0, marginRight: 'auto' }}>
             <Table>
               <TableHead>
                 <TableRow>
-                  <TableCell sx={{ fontWeight: 'bold' }}>年</TableCell>
-                  <TableCell sx={{ fontWeight: 'bold' }}>月</TableCell>
-                  <TableCell sx={{ fontWeight: 'bold' }}>学歴・職歴</TableCell>
+                  <TableCell sx={{ fontWeight: 'bold' }}>{t('career.year')}</TableCell>
+                  <TableCell sx={{ fontWeight: 'bold' }}>{t('career.month')}</TableCell>
+                  <TableCell sx={{ fontWeight: 'bold' }}>{t('career.description')}</TableCell>
                 </TableRow>
               </TableHead>
               <TableBody>
@@ -121,16 +122,16 @@ const HomePage: React.FC = () => {
 
         {/* 保有資格セクション */}
         <Typography variant="h4" gutterBottom sx={{ mt: 4 }} id="qualifications">
-          保有資格
+          {t('qualifications.title')}
         </Typography>
         <Box sx={{ overflowX: 'auto', maxWidth: '100%' }}>
           <TableContainer component={Paper} elevation={3} sx={{ maxWidth: '80%', marginLeft: 0, marginRight: 'auto' }}>
             <Table>
               <TableHead>
                 <TableRow>
-                  <TableCell sx={{ fontWeight: 'bold' }}>年</TableCell>
-                  <TableCell sx={{ fontWeight: 'bold' }}>月</TableCell>
-                  <TableCell sx={{ fontWeight: 'bold' }}>資格名</TableCell>
+                  <TableCell sx={{ fontWeight: 'bold' }}>{t('qualifications.year')}</TableCell>
+                  <TableCell sx={{ fontWeight: 'bold' }}>{t('qualifications.month')}</TableCell>
+                  <TableCell sx={{ fontWeight: 'bold' }}>{t('qualifications.description')}</TableCell>
                 </TableRow>
               </TableHead>
               <TableBody>
@@ -149,7 +150,7 @@ const HomePage: React.FC = () => {
 
         {/* 外部リンクセクション */}
         <Typography variant="h4" gutterBottom sx={{ mt: 4 }} id="externalLinks">
-          外部リンク
+        {t('externalLinks.title')}
         </Typography>
         <Grid container spacing={2}>
           {externalLinks.map((link, index) => (

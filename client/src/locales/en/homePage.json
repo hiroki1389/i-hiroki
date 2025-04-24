@@ -1,0 +1,31 @@
+{
+    "intro": {
+        "title": "Introduction",
+        "text": "My name is Hiroki Kobayashi. I am currently a second-year master's student at Ritsumeikan University, Graduate School of Information Science and Engineering. I mainly conduct research on the metaverse. This site introduces my projects that I have worked on."
+    },
+    "projects": {
+        "title": "Projects",
+        "details": "See Details"
+    },
+    "languages": {
+        "title": "Programming Languages",
+        "name": "Language Name",
+        "experience": "Experience",
+        "usage": "Main Usage"
+    },
+    "career": {
+        "title": "Career",
+        "year": "Year",
+        "month": "Month",
+        "description": "Education / Work History"
+    },
+    "qualifications": {
+        "title": "Qualifications",
+        "year": "Year",
+        "month": "Month",
+        "description": "Qualification Name"
+    },
+    "externalLinks": {
+        "title": "External Links"
+    }
+}

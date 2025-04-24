@@ -1,0 +1,31 @@
+{
+    "intro": {
+      "title": "はじめに",
+      "text": "小林洋輝と申します．現在，立命館大学大学院情報理工学研究科に通っている2回生です．大学では主にメタバースに関する研究を行っています．このサイトでは，主に私が今までに作成した制作物について紹介しています．"
+    },
+    "projects": {
+      "title": "制作物一覧",
+      "details": "詳細を見る"
+    },
+    "languages": {
+        "title": "使える言語一覧",
+        "name": "言語名",
+        "experience": "経験年数",
+        "usage": "主な用途"
+    },
+    "career": {
+        "title": "経歴",
+        "year": "年",
+        "month": "月",
+        "description": "学歴 / 職歴"
+    },
+    "qualifications": {
+        "title": "保有資格",
+        "year": "年",
+        "month": "月",
+        "description": "資格名"
+    },
+    "externalLinks": {
+        "title": "外部リンク"
+    }
+}
