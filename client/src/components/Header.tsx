@@ -49,8 +49,8 @@ const Header = () => {
             right: '20px',
           }}
         >
-          <MenuItem value="ja">日本語</MenuItem>
           <MenuItem value="en">English</MenuItem>
+          <MenuItem value="ja">日本語</MenuItem>
         </Select>
       </Toolbar>
 
