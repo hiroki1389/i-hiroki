@@ -6,7 +6,7 @@ import { Tooltip } from "@mui/material";
 
 import titleImage from '../assets/attendanceChecker/title.png';
 import environmentImage from '../assets/attendanceChecker/test_environment.png';
-import demoVideo from '../assets/attendanceChecker/demo.mov';
+// import demoVideo from '../assets/attendanceChecker/demo.mov';
 
 const AttendanceChecker: React.FC = () => {
     return (
@@ -127,7 +127,7 @@ const AttendanceChecker: React.FC = () => {
 
                     <br />
 
-                    <Typography variant="h6" component="h2" gutterBottom>
+                    {/* <Typography variant="h6" component="h2" gutterBottom>
                         デモ動画
                     </Typography>
                     <CardMedia
@@ -140,7 +140,7 @@ const AttendanceChecker: React.FC = () => {
                             maxWidth: '60%',
                             height: 'auto',
                         }}
-                    />
+                    /> */}
 
                     <Typography variant="h6" component="h2" gutterBottom>
                         ソースコード
