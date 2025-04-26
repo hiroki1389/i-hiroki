@@ -1,0 +1,10 @@
+{
+    "career": [
+      { "year": "2017", "month": "3", "event": "Graduated from Waseda Setsuryo Junior High School" },
+      { "year": "2017", "month": "4", "event": "Entered Waseda Setsuryo Senior High School" },
+      { "year": "2020", "month": "3", "event": "Graduated from Waseda Setsuryo Senior High School" },
+      { "year": "2020", "month": "4", "event": "Entered Ritsumeikan University, College of Information Science and Engineering" },
+      { "year": "2024", "month": "3", "event": "Graduated from Ritsumeikan University, College of Information Science and Engineering" },
+      { "year": "2024", "month": "4", "event": "Entered Ritsumeikan University Graduate School, Graduate School of Information Science and Engineering" }
+    ]
+}

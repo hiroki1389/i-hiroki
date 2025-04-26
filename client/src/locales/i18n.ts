@@ -4,6 +4,8 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 
 import enHomePage from './en/homePage.json';
 import jaHomePage from './ja/homePage.json';
+import enCareer from './en/career.json';
+import jaCareer from './ja/career.json';
 
 i18n
   .use(LanguageDetector) // ブラウザの言語を自動で検出
@@ -11,10 +13,12 @@ i18n
   .init({
     resources: {
       en: {
-        homePage: enHomePage
+        homePage: enHomePage,
+        career: enCareer
       },
       ja: {
-        homePage: jaHomePage
+        homePage: jaHomePage,
+        career: jaCareer
       }
     },
     fallbackLng: 'en', // 言語が検出できない場合は英語をデフォルトにする
