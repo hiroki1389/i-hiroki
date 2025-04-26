@@ -62,7 +62,13 @@ const HomePage: React.FC = () => {
                 <CardContentWrapper>
                   <Typography variant="h6" component="h3">{project.title}</Typography>
                   <Typography variant="body2" paragraph>{project.description}</Typography>
-                  <Button component={RouterLink} to={project.link} variant="outlined" color="primary">
+                  <Button
+                    component={RouterLink}
+                    to={project.link}
+                    variant="outlined"
+                    color="primary"
+                    style={{ marginTop: 'auto' }}
+                  >
                     {tHomePage('projects.details')}
                   </Button>
                 </CardContentWrapper>
