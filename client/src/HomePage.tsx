@@ -31,7 +31,7 @@ const CardContentWrapper = styled(CardContent)({
 });
 
 const HomePage: React.FC = () => {
-  const { t } = useTranslation('homePage');
+  const { t: tHomePage } = useTranslation('homePage');
   const { t: tCareer} = useTranslation('career');
   const career = tCareer('career', { returnObjects: true }) as { year: string; month: string; event: string }[];;
 
@@ -41,16 +41,16 @@ const HomePage: React.FC = () => {
         {/* はじめにセクション */}
         <Paper sx={{ p: 3, mb: 4 }} id = "intro">
           <Typography variant="h4" gutterBottom>
-            {t('intro.title')}
+            {tHomePage('intro.title')}
           </Typography>
           <Typography variant="body1" paragraph>
-            {t('intro.text')}
+            {tHomePage('intro.text')}
           </Typography>
         </Paper>
 
         {/* 制作物一覧セクション */}
         <Typography variant="h4" gutterBottom id = "projects">
-          {t('projects.title')}
+          {tHomePage('projects.title')}
         </Typography>
         <Grid container spacing={4}>
           {projects.map((project, index) => (
@@ -60,7 +60,7 @@ const HomePage: React.FC = () => {
                   <Typography variant="h6" component="h3">{project.title}</Typography>
                   <Typography variant="body2" paragraph>{project.description}</Typography>
                   <Button component={RouterLink} to={project.link} variant="outlined" color="primary">
-                    {t('projects.details')}
+                    {tHomePage('projects.details')}
                   </Button>
                 </CardContentWrapper>
               </CustomCard>
@@ -70,16 +70,16 @@ const HomePage: React.FC = () => {
 
         {/* 使える言語一覧セクション */}
         <Typography variant="h4" gutterBottom sx={{ mt: 4 }} id="skills">
-          {t('languages.title')}
+          {tHomePage('languages.title')}
         </Typography>
         <Box sx={{ overflowX: 'auto', maxWidth: '100%' }}>
           <TableContainer component={Paper} elevation={3} sx={{ maxWidth: '80%', marginLeft: 0, marginRight: 'auto' }}>
             <Table>
               <TableHead>
                 <TableRow>
-                  <TableCell sx={{ fontWeight: 'bold' }}>{t('languages.name')}</TableCell>
-                  <TableCell sx={{ fontWeight: 'bold' }}>{t('languages.experience')}</TableCell>
-                  <TableCell sx={{ fontWeight: 'bold' }}>{t('languages.usage')}</TableCell>
+                  <TableCell sx={{ fontWeight: 'bold' }}>{tHomePage('languages.name')}</TableCell>
+                  <TableCell sx={{ fontWeight: 'bold' }}>{tHomePage('languages.experience')}</TableCell>
+                  <TableCell sx={{ fontWeight: 'bold' }}>{tHomePage('languages.usage')}</TableCell>
                 </TableRow>
               </TableHead>
               <TableBody>
@@ -97,16 +97,16 @@ const HomePage: React.FC = () => {
 
         {/* 経歴セクション */}
         <Typography variant="h4" gutterBottom sx={{ mt: 4 }} id="career">
-          {t('career.title')}
+          {tHomePage('career.title')}
         </Typography>
         <Box sx={{ overflowX: 'auto', maxWidth: '100%' }}>
           <TableContainer component={Paper} elevation={3} sx={{ maxWidth: '80%', marginLeft: 0, marginRight: 'auto' }}>
             <Table>
               <TableHead>
                 <TableRow>
-                  <TableCell sx={{ fontWeight: 'bold' }}>{t('career.year')}</TableCell>
-                  <TableCell sx={{ fontWeight: 'bold' }}>{t('career.month')}</TableCell>
-                  <TableCell sx={{ fontWeight: 'bold' }}>{t('career.description')}</TableCell>
+                  <TableCell sx={{ fontWeight: 'bold' }}>{tHomePage('career.year')}</TableCell>
+                  <TableCell sx={{ fontWeight: 'bold' }}>{tHomePage('career.month')}</TableCell>
+                  <TableCell sx={{ fontWeight: 'bold' }}>{tHomePage('career.description')}</TableCell>
                 </TableRow>
               </TableHead>
               <TableBody>
@@ -124,16 +124,16 @@ const HomePage: React.FC = () => {
 
         {/* 保有資格セクション */}
         <Typography variant="h4" gutterBottom sx={{ mt: 4 }} id="qualifications">
-          {t('qualifications.title')}
+          {tHomePage('qualifications.title')}
         </Typography>
         <Box sx={{ overflowX: 'auto', maxWidth: '100%' }}>
           <TableContainer component={Paper} elevation={3} sx={{ maxWidth: '80%', marginLeft: 0, marginRight: 'auto' }}>
             <Table>
               <TableHead>
                 <TableRow>
-                  <TableCell sx={{ fontWeight: 'bold' }}>{t('qualifications.year')}</TableCell>
-                  <TableCell sx={{ fontWeight: 'bold' }}>{t('qualifications.month')}</TableCell>
-                  <TableCell sx={{ fontWeight: 'bold' }}>{t('qualifications.description')}</TableCell>
+                  <TableCell sx={{ fontWeight: 'bold' }}>{tHomePage('qualifications.year')}</TableCell>
+                  <TableCell sx={{ fontWeight: 'bold' }}>{tHomePage('qualifications.month')}</TableCell>
+                  <TableCell sx={{ fontWeight: 'bold' }}>{tHomePage('qualifications.description')}</TableCell>
                 </TableRow>
               </TableHead>
               <TableBody>
@@ -149,10 +149,9 @@ const HomePage: React.FC = () => {
           </TableContainer>
         </Box>
 
-
         {/* 外部リンクセクション */}
         <Typography variant="h4" gutterBottom sx={{ mt: 4 }} id="externalLinks">
-        {t('externalLinks.title')}
+        {tHomePage('externalLinks.title')}
         </Typography>
         <Grid container spacing={2}>
           {externalLinks.map((link, index) => (
