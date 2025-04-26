@@ -4,12 +4,12 @@ import { Card, CardContent, CardMedia, Typography, Button, Container, Grid, List
 import GitHubIcon from "@mui/icons-material/GitHub";
 import { Tooltip } from "@mui/material";
 
-import titleImage from '../assets/autoServerUpdate/title.png';
-import accountCreateImage from '../assets/autoServerUpdate/accountCreate.png';
-import aliasTableImage from '../assets/autoServerUpdate/aliasTable.png';
-import aliasUpdateImage from '../assets/autoServerUpdate/aliasUpdate.png';
-import createFileImage from '../assets/autoServerUpdate/createdFile.png';
-import forwardAddressImage from '../assets/autoServerUpdate/forwardAddress.png';
+import titleImage from './autoServerUpdate/title.png';
+import accountCreateImage from './autoServerUpdate/accountCreate.png';
+import aliasTableImage from './autoServerUpdate/aliasTable.png';
+import aliasUpdateImage from './autoServerUpdate/aliasUpdate.png';
+import createFileImage from './autoServerUpdate/createdFile.png';
+import forwardAddressImage from './autoServerUpdate/forwardAddress.png';
 
 const AutoServerUpdater: React.FC = () => {
     return (

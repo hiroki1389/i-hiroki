@@ -4,9 +4,9 @@ import { Card, CardContent, CardMedia, Typography, Button, Container, Grid, List
 import GitHubIcon from "@mui/icons-material/GitHub";
 import { Tooltip } from "@mui/material";
 
-import titleImage from '../assets/attendanceChecker/title.png';
-import environmentImage from '../assets/attendanceChecker/test_environment.png';
-// import demoVideo from '../assets/attendanceChecker/demo.mov';
+import titleImage from './attendanceChecker/title.png';
+import environmentImage from './attendanceChecker/test_environment.png';
+// import demoVideo from './attendanceChecker/demo.mov';
 
 const AttendanceChecker: React.FC = () => {
     return (
