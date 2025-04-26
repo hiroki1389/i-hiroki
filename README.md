@@ -1,5 +1,6 @@
 以前ライブラリを何も使わずHTML, CSS, jsだけで作ったポートフォリオサイトをブラッシュアップしているもの
 
-React, TypeScript, Material UI, Docker, node.jsを使用
+React, TypeScript, Material UIを使用
 
-作品紹介ページはまだ移行前
+- 作品紹介ページはまだ移行前
+- バックエンドに何かしらの動的な機能を付ける予定
