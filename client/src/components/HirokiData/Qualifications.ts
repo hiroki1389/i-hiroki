@@ -1,4 +1,8 @@
-import { TableRow } from "./Career";
+export type TableRow = {
+    year: string;
+    month: string;
+    event: string;
+};
 
 export const qualifications: TableRow[] = [
     { year: '2022', month: '5', event: '基本情報技術者試験　合格' },
