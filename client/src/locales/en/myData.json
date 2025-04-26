@@ -73,5 +73,11 @@
         { "year": "2021", "month": "12", "event": "Color Proficiency Certification Grade 2" },
         { "year": "2022", "month": "2", "event": "Secretary Proficiency Certification Grade 2" },
         { "year": "2024", "month": "5", "event": "National Public Service Comprehensive Examination" }
+    ],
+    "externalLinks": [
+        { "name": "GitHub", "url": "https://github.com/hiroki1389", "icon": "GitHubIcon" },
+        { "name": "AtCoder", "url": "https://atcoder.jp/users/roki1389", "icon": "AtCoderIcon" },
+        { "name": "Twitter", "url": "https://twitter.com/hiroki_1389", "icon": "TwitterIcon" },
+        { "name": "Qiita", "url": "https://qiita.com/hiroki1389", "icon": "QiitaIcon" }
     ]
 }

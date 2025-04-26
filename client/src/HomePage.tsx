@@ -2,9 +2,9 @@ import React from 'react';
 import { Link as RouterLink } from 'react-router-dom';
 import { Card, CardContent, Typography, IconButton, Grid, Button, Box, Paper } from '@mui/material';
 import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow } from '@mui/material';
-import {  externalLinks } from './components/HirokiData';
 import { styled } from '@mui/system';
 import { useTranslation } from 'react-i18next';
+import iconMap from './components/ExternalLinks';
 
 import './styles.css';
 
@@ -37,6 +37,13 @@ const HomePage: React.FC = () => {
   const career = tMyData('career', { returnObjects: true }) as { year: string; month: string; event: string }[];
   const qualifications = tMyData('qualifications', { returnObjects: true }) as { year: string; month: string; event: string }[];
   const programmingLanguages = tMyData('programmingLanguages', { returnObjects: true }) as { name: string; experience: string; usage: string }[];
+  const rawLinks = tMyData('externalLinks', { returnObjects: true }) as { name: string; url: string; icon: string }[];
+  // アイコンをReact要素に変換して組み立て
+  // アイコン関数を呼び出してReactNodeに変換
+  const externalLinks = rawLinks.map(link => ({
+    ...link,
+    icon: iconMap[link.icon]?.() || <></>, // ← () をつけるのが重要！
+  }));
 
   return (
     <Box sx={{ p: 4 }}>
