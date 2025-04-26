@@ -2,7 +2,7 @@ import React from 'react';
 import { Link as RouterLink } from 'react-router-dom';
 import { Card, CardContent, Typography, IconButton, Grid, Button, Box, Paper } from '@mui/material';
 import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow } from '@mui/material';
-import { programmingLanguages, qualifications, projects, externalLinks } from './components/HirokiData';
+import { programmingLanguages, projects, externalLinks } from './components/HirokiData';
 import { styled } from '@mui/system';
 import { useTranslation } from 'react-i18next';
 
@@ -32,8 +32,9 @@ const CardContentWrapper = styled(CardContent)({
 
 const HomePage: React.FC = () => {
   const { t: tHomePage } = useTranslation('homePage');
-  const { t: tCareer} = useTranslation('career');
-  const career = tCareer('career', { returnObjects: true }) as { year: string; month: string; event: string }[];;
+  const { t: tMyData} = useTranslation('myData');
+  const career = tMyData('career', { returnObjects: true }) as { year: string; month: string; event: string }[];;
+  const qualifications = tMyData('qualifications', { returnObjects: true }) as { year: string; month: string; event: string }[];;
 
   return (
     <Box sx={{ p: 4 }}>

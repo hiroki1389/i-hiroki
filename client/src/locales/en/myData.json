@@ -1,0 +1,24 @@
+{
+    "career": [
+        { "year": "2017", "month": "3", "event": "Graduated from Waseda Setsuryo Junior High School" },
+        { "year": "2017", "month": "4", "event": "Entered Waseda Setsuryo Senior High School" },
+        { "year": "2020", "month": "3", "event": "Graduated from Waseda Setsuryo Senior High School" },
+        { "year": "2020", "month": "4", "event": "Entered Ritsumeikan University, College of Information Science and Engineering" },
+        { "year": "2024", "month": "3", "event": "Graduated from Ritsumeikan University, College of Information Science and Engineering" },
+        { "year": "2024", "month": "4", "event": "Entered Ritsumeikan University Graduate School, Graduate School of Information Science and Engineering" }
+    ],
+    "qualifications": [
+        { "year": "2022", "month": "5", "event": "Fundamental Information Technology Engineer" },
+        { "year": "2022", "month": "6", "event": "Applied Information Technology Engineer" },
+        { "year": "2022", "month": "12", "event": "Senior Virtual Reality Specialist" },
+        { "year": "2023", "month": "7", "event": "Microsoft Office Specialist Associate 2019" },
+        { "year": "2023", "month": "1", "event": "TOEIC Listening & Reading Test: 745" },
+        { "year": "2022", "month": "2", "event": "Japan Bookkeeping 2nd Grade" },
+        { "year": "2024", "month": "6", "event": "2nd grade Certified Skilled Professional of Financial Planning" },
+        { "year": "2021", "month": "2", "event": "The Japan Kanji Aptitude Test Grade 2" },
+        { "year": "2021", "month": "9", "event": "World Heritage Certification Grade 2" },
+        { "year": "2021", "month": "12", "event": "Color Proficiency Certification Grade 2" },
+        { "year": "2022", "month": "2", "event": "Secretary Proficiency Certification Grade 2" },
+        { "year": "2024", "month": "5", "event": "National Public Service Comprehensive Examination" }
+    ]
+}
