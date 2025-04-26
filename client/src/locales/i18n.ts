@@ -1,33 +1,41 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
+const enModules = import.meta.glob('./en/*.json', { eager: true });
+const jaModules = import.meta.glob('./ja/*.json', { eager: true });
 
-import enHomePage from './en/homePage.json';
-import jaHomePage from './ja/homePage.json';
-import enMyData from './en/myData.json';
-import jaMydata from './ja/myData.json';
+// resourcesを初期化
+const resources: any = { en: {}, ja: {} };
 
+// enフォルダ
+for (const path in enModules) {
+  const fileName = path.split('/').pop()?.replace('.json', '');
+  if (fileName) {
+    resources.en[fileName] = (enModules[path] as any).default;
+  }
+}
+
+// jaフォルダ
+for (const path in jaModules) {
+  const fileName = path.split('/').pop()?.replace('.json', '');
+  if (fileName) {
+    resources.ja[fileName] = (jaModules[path] as any).default;
+  }
+}
+
+// i18n初期化
 i18n
   .use(LanguageDetector) // ブラウザの言語を自動で検出
-  .use(initReactI18next) // Reactとの連携
+  .use(initReactI18next)
   .init({
-    resources: {
-      en: {
-        homePage: enHomePage,
-        myData: enMyData,
-      },
-      ja: {
-        homePage: jaHomePage,
-        myData: jaMydata,
-      }
-    },
+    resources,
     fallbackLng: 'en', // 言語が検出できない場合は英語をデフォルトにする
     interpolation: {
-      escapeValue: false, // XSS対策のために値をエスケープしない
+      escapeValue: false,
     },
     detection: {
-      order: ['localStorage', 'navigator'],  // 言語検出順序
-      caches: ['localStorage'],  // 言語をlocalStorageに保存して次回以降使用
+      order: ['localStorage', 'navigator'],
+      caches: ['localStorage'],
     }
   });
 
