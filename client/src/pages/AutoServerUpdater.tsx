@@ -11,7 +11,7 @@ import aliasUpdateImage from '../assets/autoServerUpdate/aliasUpdate.png';
 import createFileImage from '../assets/autoServerUpdate/createdFile.png';
 import forwardAddressImage from '../assets/autoServerUpdate/forwardAddress.png';
 
-const AutoServerUpdate: React.FC = () => {
+const AutoServerUpdater: React.FC = () => {
     return (
         <Container maxWidth="md" sx={{ py: 6 }}>
             <Card sx={{ boxShadow: 3, borderRadius: 3 }}>
@@ -251,4 +251,4 @@ const AutoServerUpdate: React.FC = () => {
     );
 };
 
-export default AutoServerUpdate;
+export default AutoServerUpdater;
