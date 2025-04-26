@@ -54,8 +54,8 @@
       "link": "DoubleBookkeeping",
       "visible": false
     }
-],
-"programmingLanguages": [
+  ],
+  "programmingLanguages": [
     {"name": "Python", "experience": "5年", "usage": "卒業研究，ツール開発"},
     {"name": "C#", "experience": "3年", "usage": "Unity（卒業研究，ゲーム制作）"},
     {"name": "C++", "experience": "1年", "usage": "競技プログラミング（AtCoder）"},
@@ -65,16 +65,16 @@
     {"name": "Matlab", "experience": "2年", "usage": "大学のレポート課題で積極的に活用"},
     {"name": "Kotlin", "experience": "1年", "usage": "Androidアプリ開発"},
     {"name": "Swift", "experience": "1年", "usage": "iPhoneアプリ開発"}
-],
-"career": [
+  ],
+  "career": [
     { "year": "2017", "month": "3", "event": "早稲田摂陵中学校　卒業" },
     { "year": "2017", "month": "4", "event": "早稲田摂陵高等学校　入学" },
     { "year": "2020", "month": "3", "event": "早稲田摂陵高等学校　卒業" },
     { "year": "2020", "month": "4", "event": "立命館大学　情報理工学部　入学" },
     { "year": "2024", "month": "3", "event": "立命館大学　情報理工学部　卒業" },
     { "year": "2024", "month": "4", "event": "立命館大学大学院　情報理工学研究科　入学" }
-],
-"qualifications": [
+  ],
+  "qualifications": [
     { "year": "2022", "month": "5", "event": "基本情報技術者試験　合格" },
     { "year": "2022", "month": "6", "event": "応用情報技術者試験　合格" },
     { "year": "2022", "month": "12", "event": "上級バーチャルリアリティ技術者　取得" },
@@ -87,8 +87,8 @@
     { "year": "2021", "month": "12", "event": "色彩検定２級　合格" },
     { "year": "2022", "month": "2", "event": "秘書技能検定試験２級　合格" },
     { "year": "2024", "month": "5", "event": "国家公務員総合職採用試験　最終合格" }
-],
-"externalLinks": [
+  ],
+  "externalLinks": [
     { "name": "GitHub", "url": "https://github.com/hiroki1389", "icon": "GitHubIcon" },
     { "name": "AtCoder", "url": "https://atcoder.jp/users/roki1389", "icon": "AtCoderIcon" },
     { "name": "Twitter", "url": "https://twitter.com/hiroki_1389", "icon": "TwitterIcon" },
