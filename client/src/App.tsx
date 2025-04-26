@@ -7,7 +7,6 @@ import HomePage from './HomePage'
 import Header from './components/Header'
 import Footer from './components/Footer'
 
-// import './App.css'
 // 動的にページをインポートする
 const pageModules = import.meta.glob('./pages/*.tsx', { eager: true });
 
