@@ -20,7 +20,7 @@ const generateRoutes = () => {
     return (
       <Route
         key={path}
-        path={`/pages/${pageName}`}
+        path={`/${pageName}`}
         element={<Component />}
       />
     );
