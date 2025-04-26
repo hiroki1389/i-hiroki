@@ -1,6 +1,12 @@
 {
     "projects": [
         {
+          "title": "立命館ジム予約Bot",
+          "description": "立命館のジム予約を簡略化するためのDiscord Bot",
+          "link": "RitsGymReserverBot",
+          "visible": false
+        },
+        {
           "title": "MTG出欠管理システム",
           "description": "研究室でのMTG出欠管理のために作成したシステム",
           "link": "AttendanceChecker",

@@ -1,6 +1,12 @@
 {
     "projects": [
         {
+            "title": "Ritsumeikan Gym Reservation Bot",
+            "description": "A Discord bot to simplify gym reservations at Ritsumeikan University",
+            "link": "RitsGymReserverBot",
+            "visible": false
+        },
+        {
             "title": "MTG Attendance Management System",
             "description": "A system created to manage meeting attendance in our lab.",
             "link": "AttendanceChecker",
