@@ -10,7 +10,7 @@
             "title": "Auto Generator for Mail Server Update Files",
             "description": "A tool to automatically generate update files for the lab's mail server.",
             "link": "pages/AutoServerUpdater",
-            "visible": true
+            "visible": false
         },
         {
             "title": "i-hiroki",
