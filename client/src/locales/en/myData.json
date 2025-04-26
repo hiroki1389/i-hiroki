@@ -1,4 +1,15 @@
 {
+    "programmingLanguages": [
+        {"name": "Python", "experience": "5 years", "usage": "Graduation research, tool development"},
+        {"name": "C#", "experience": "3 years", "usage": "Unity (Graduation research, game development)"},
+        {"name": "C++", "experience": "1 year", "usage": "Competitive programming (AtCoder)"},
+        {"name": "Java", "experience": "3 years", "usage": "App development, university courses"},
+        {"name": "GAS", "experience": "1 year", "usage": "Tool development"},
+        {"name": "TypeScript", "experience": "1 year", "usage": "Website development using React"},
+        {"name": "Matlab", "experience": "2 years", "usage": "Active use in university report assignments"},
+        {"name": "Kotlin", "experience": "1 year", "usage": "Android app development"},
+        {"name": "Swift", "experience": "1 year", "usage": "iPhone app development"}
+    ],
     "career": [
         { "year": "2017", "month": "3", "event": "Graduated from Waseda Setsuryo Junior High School" },
         { "year": "2017", "month": "4", "event": "Entered Waseda Setsuryo Senior High School" },

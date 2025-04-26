@@ -1,4 +1,15 @@
 {
+    "programmingLanguages": [
+        {"name": "Python", "experience": "5年", "usage": "卒業研究，ツール開発"},
+        {"name": "C#", "experience": "3年", "usage": "Unity（卒業研究，ゲーム制作）"},
+        {"name": "C++", "experience": "1年", "usage": "競技プログラミング（AtCoder）"},
+        {"name": "Java", "experience": "3年", "usage": "アプリ開発，大学の授業"},
+        {"name": "GAS", "experience": "1年", "usage": "ツール開発"},
+        {"name": "TypeScript", "experience": "1年", "usage": "Reactを用いたサイト制作"},
+        {"name": "Matlab", "experience": "2年", "usage": "大学のレポート課題で積極的に活用"},
+        {"name": "Kotlin", "experience": "1年", "usage": "Androidアプリ開発"},
+        {"name": "Swift", "experience": "1年", "usage": "iPhoneアプリ開発"}
+    ],
     "career": [
         { "year": "2017", "month": "3", "event": "早稲田摂陵中学校　卒業" },
         { "year": "2017", "month": "4", "event": "早稲田摂陵高等学校　入学" },
