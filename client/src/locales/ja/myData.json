@@ -1,97 +1,97 @@
 {
-    "projects": [
-        {
-          "title": "立命館ジム予約Bot",
-          "description": "立命館のジム予約を簡略化するためのDiscord Bot",
-          "link": "RitsGymReserverBot",
-          "visible": false
-        },
-        {
-          "title": "MTG出欠管理システム",
-          "description": "研究室でのMTG出欠管理のために作成したシステム",
-          "link": "AttendanceChecker",
-          "visible": true
-        },
-        {
-          "title": "メールサーバ更新ファイル自動生成ツール",
-          "description": "研究室メールサーバの更新ファイルを自動生成するツール",
-          "link": "AutoServerUpdater",
-          "visible": false
-        },
-        {
-          "title": "i-hiroki",
-          "description": "本ホームページ",
-          "link": "IHiroki",
-          "visible": false
-        },
-        {
-          "title": "動的環境をVR空間に反映するシステム",
-          "description": "卒業研究で開発したシステム",
-          "link": "ResearchBachelor",
-          "visible": false
-        },
-        {
-          "title": "MRキャンパスのマルチプラットフォーム開発",
-          "description": "大学院で開発しているシステム",
-          "link": "ResearchMaster",
-          "visible": false
-        },
-        {
-          "title": "逃げ切れ！疾走犯！！！！",
-          "description": "研究室のグループワークで制作したVRアクションゲーム",
-          "link": "Juvenile",
-          "visible": false
-        },
-        {
-          "title": "雀魂風タイマー",
-          "description": "麻雀アプリ雀魂と同じ形式の2人対戦ゲーム用のタイマーアプリ",
-          "link": "MahjongsoulTimer",
-          "visible": false
-        },
-        {
-          "title": "複式家計簿",
-          "description": "複式簿記の概念を取り入れたアレンジ性のある家計簿アプリ",
-          "link": "DoubleBookkeeping",
-          "visible": false
-        }
-    ],
-    "programmingLanguages": [
-        {"name": "Python", "experience": "5年", "usage": "卒業研究，ツール開発"},
-        {"name": "C#", "experience": "3年", "usage": "Unity（卒業研究，ゲーム制作）"},
-        {"name": "C++", "experience": "1年", "usage": "競技プログラミング（AtCoder）"},
-        {"name": "Java", "experience": "3年", "usage": "アプリ開発，大学の授業"},
-        {"name": "GAS", "experience": "1年", "usage": "ツール開発"},
-        {"name": "TypeScript", "experience": "1年", "usage": "Reactを用いたサイト制作"},
-        {"name": "Matlab", "experience": "2年", "usage": "大学のレポート課題で積極的に活用"},
-        {"name": "Kotlin", "experience": "1年", "usage": "Androidアプリ開発"},
-        {"name": "Swift", "experience": "1年", "usage": "iPhoneアプリ開発"}
-    ],
-    "career": [
-        { "year": "2017", "month": "3", "event": "早稲田摂陵中学校　卒業" },
-        { "year": "2017", "month": "4", "event": "早稲田摂陵高等学校　入学" },
-        { "year": "2020", "month": "3", "event": "早稲田摂陵高等学校　卒業" },
-        { "year": "2020", "month": "4", "event": "立命館大学　情報理工学部　入学" },
-        { "year": "2024", "month": "3", "event": "立命館大学　情報理工学部　卒業" },
-        { "year": "2024", "month": "4", "event": "立命館大学大学院　情報理工学研究科　入学" }
-    ],
-    "qualifications": [
-        { "year": "2022", "month": "5", "event": "基本情報技術者試験　合格" },
-        { "year": "2022", "month": "6", "event": "応用情報技術者試験　合格" },
-        { "year": "2022", "month": "12", "event": "上級バーチャルリアリティ技術者　取得" },
-        { "year": "2023", "month": "7", "event": "Microsoft Office Specialist Associate 2019　取得" },
-        { "year": "2023", "month": "1", "event": "TOEIC L&R 公開テスト　745点　取得" },
-        { "year": "2022", "month": "2", "event": "日商簿記検定試験２級　合格" },
-        { "year": "2024", "month": "6", "event": "２級ファイナンシャル・プランニング技能士　取得" },
-        { "year": "2021", "month": "2", "event": "実用漢字能力検定２級　合格" },
-        { "year": "2021", "month": "9", "event": "世界遺産検定２級　合格" },
-        { "year": "2021", "month": "12", "event": "色彩検定２級　合格" },
-        { "year": "2022", "month": "2", "event": "秘書技能検定試験２級　合格" },
-        { "year": "2024", "month": "5", "event": "国家公務員総合職採用試験　最終合格" }
-    ],
-    "externalLinks": [
-        { "name": "GitHub", "url": "https://github.com/hiroki1389", "icon": "GitHubIcon" },
-        { "name": "AtCoder", "url": "https://atcoder.jp/users/roki1389", "icon": "AtCoderIcon" },
-        { "name": "Twitter", "url": "https://twitter.com/hiroki_1389", "icon": "TwitterIcon" },
-        { "name": "Qiita", "url": "https://qiita.com/hiroki1389", "icon": "QiitaIcon" }
-    ]
+  "projects": [
+    {
+      "title": "立命館ジム予約Bot",
+      "description": "立命館のジム予約を簡略化するためのDiscord Bot",
+      "link": "RitsGymReserverBot",
+      "visible": false
+    },
+    {
+      "title": "MTG出欠管理システム",
+      "description": "研究室でのMTG出欠管理のために作成したシステム",
+      "link": "AttendanceChecker",
+      "visible": true
+    },
+    {
+      "title": "メールサーバ更新ファイル自動生成ツール",
+      "description": "研究室メールサーバの更新ファイルを自動生成するツール",
+      "link": "AutoServerUpdater",
+      "visible": false
+    },
+    {
+      "title": "i-hiroki",
+      "description": "本ホームページ",
+      "link": "IHiroki",
+      "visible": false
+    },
+    {
+      "title": "動的環境をVR空間に反映するシステム",
+      "description": "卒業研究で開発したシステム",
+      "link": "ResearchBachelor",
+      "visible": false
+    },
+    {
+      "title": "MRキャンパスのマルチプラットフォーム開発",
+      "description": "大学院で開発しているシステム",
+      "link": "ResearchMaster",
+      "visible": false
+    },
+    {
+      "title": "逃げ切れ！疾走犯！！！！",
+      "description": "研究室のグループワークで制作したVRアクションゲーム",
+      "link": "Juvenile",
+      "visible": false
+    },
+    {
+      "title": "雀魂風タイマー",
+      "description": "麻雀アプリ雀魂と同じ形式の2人対戦ゲーム用のタイマーアプリ",
+      "link": "MahjongsoulTimer",
+      "visible": false
+    },
+    {
+      "title": "複式家計簿",
+      "description": "複式簿記の概念を取り入れたアレンジ性のある家計簿アプリ",
+      "link": "DoubleBookkeeping",
+      "visible": false
+    }
+],
+"programmingLanguages": [
+    {"name": "Python", "experience": "5年", "usage": "卒業研究，ツール開発"},
+    {"name": "C#", "experience": "3年", "usage": "Unity（卒業研究，ゲーム制作）"},
+    {"name": "C++", "experience": "1年", "usage": "競技プログラミング（AtCoder）"},
+    {"name": "Java", "experience": "3年", "usage": "アプリ開発，大学の授業"},
+    {"name": "GAS", "experience": "1年", "usage": "ツール開発"},
+    {"name": "TypeScript", "experience": "1年", "usage": "Reactを用いたサイト制作"},
+    {"name": "Matlab", "experience": "2年", "usage": "大学のレポート課題で積極的に活用"},
+    {"name": "Kotlin", "experience": "1年", "usage": "Androidアプリ開発"},
+    {"name": "Swift", "experience": "1年", "usage": "iPhoneアプリ開発"}
+],
+"career": [
+    { "year": "2017", "month": "3", "event": "早稲田摂陵中学校　卒業" },
+    { "year": "2017", "month": "4", "event": "早稲田摂陵高等学校　入学" },
+    { "year": "2020", "month": "3", "event": "早稲田摂陵高等学校　卒業" },
+    { "year": "2020", "month": "4", "event": "立命館大学　情報理工学部　入学" },
+    { "year": "2024", "month": "3", "event": "立命館大学　情報理工学部　卒業" },
+    { "year": "2024", "month": "4", "event": "立命館大学大学院　情報理工学研究科　入学" }
+],
+"qualifications": [
+    { "year": "2022", "month": "5", "event": "基本情報技術者試験　合格" },
+    { "year": "2022", "month": "6", "event": "応用情報技術者試験　合格" },
+    { "year": "2022", "month": "12", "event": "上級バーチャルリアリティ技術者　取得" },
+    { "year": "2023", "month": "7", "event": "Microsoft Office Specialist Associate 2019　取得" },
+    { "year": "2023", "month": "1", "event": "TOEIC L&R 公開テスト　745点　取得" },
+    { "year": "2022", "month": "2", "event": "日商簿記検定試験２級　合格" },
+    { "year": "2024", "month": "6", "event": "２級ファイナンシャル・プランニング技能士　取得" },
+    { "year": "2021", "month": "2", "event": "実用漢字能力検定２級　合格" },
+    { "year": "2021", "month": "9", "event": "世界遺産検定２級　合格" },
+    { "year": "2021", "month": "12", "event": "色彩検定２級　合格" },
+    { "year": "2022", "month": "2", "event": "秘書技能検定試験２級　合格" },
+    { "year": "2024", "month": "5", "event": "国家公務員総合職採用試験　最終合格" }
+],
+"externalLinks": [
+    { "name": "GitHub", "url": "https://github.com/hiroki1389", "icon": "GitHubIcon" },
+    { "name": "AtCoder", "url": "https://atcoder.jp/users/roki1389", "icon": "AtCoderIcon" },
+    { "name": "Twitter", "url": "https://twitter.com/hiroki_1389", "icon": "TwitterIcon" },
+    { "name": "Qiita", "url": "https://qiita.com/hiroki1389", "icon": "QiitaIcon" }
+  ]
 }
