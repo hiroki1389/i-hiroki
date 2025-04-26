@@ -33,7 +33,7 @@ const CardContentWrapper = styled(CardContent)({
 const HomePage: React.FC = () => {
   const { t: tHomePage } = useTranslation('homePage');
   const { t: tMyData} = useTranslation('myData');
-  const projects = tMyData('projects', { returnObjects: true }) as { title: string; description: string; link: string }[];
+  const projects = tMyData('projects', { returnObjects: true }) as { title: string; description: string; link: string; visible: boolean }[];
   const career = tMyData('career', { returnObjects: true }) as { year: string; month: string; event: string }[];
   const qualifications = tMyData('qualifications', { returnObjects: true }) as { year: string; month: string; event: string }[];
   const programmingLanguages = tMyData('programmingLanguages', { returnObjects: true }) as { name: string; experience: string; usage: string }[];
@@ -63,7 +63,9 @@ const HomePage: React.FC = () => {
           {tHomePage('projects.title')}
         </Typography>
         <Grid container spacing={4}>
-          {projects.map((project, index) => (
+          {projects
+          .filter(project => project.visible)
+          .map((project, index) => (
             <Grid item xs={12} sm={6} md={4} key={index}>
               <CustomCard>
                 <CardContentWrapper>

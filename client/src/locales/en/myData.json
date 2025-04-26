@@ -3,42 +3,50 @@
         {
             "title": "MTG Attendance Management System",
             "description": "A system created to manage meeting attendance in our lab.",
-            "link": "pages/AttendanceChecker"
+            "link": "pages/AttendanceChecker",
+            "visible": true
         },
         {
             "title": "Auto Generator for Mail Server Update Files",
             "description": "A tool to automatically generate update files for the lab's mail server.",
-            "link": "pages/AutoServerUpdate"
+            "link": "pages/AutoServerUpdate",
+            "visible": true
         },
         {
             "title": "i-hiroki",
             "description": "This personal homepage.",
-            "link": "pages/IHiroki"
+            "link": "pages/IHiroki",
+            "visible": false
         },
         {
             "title": "VR System Reflecting Dynamic Real-World Environments",
             "description": "A system developed for my undergraduate thesis.",
-            "link": "pages/ResearchBachelor"
+            "link": "pages/ResearchBachelor",
+            "visible": false
         },
         {
             "title": "Cross-Platform Development for MR Campus",
             "description": "A system being developed as part of my graduate school research.",
-            "link": "pages/ResearchMaster"
+            "link": "pages/ResearchMaster",
+            "visible": false
         },
         {
             "title": "Escape! The Criminal!!!!!",
             "description": "A VR action game developed in a lab group project.",
-            "link": "pages/Juvenile"
+            "link": "pages/Juvenile",
+            "visible": false
         },
         {
             "title": "Mahjong Soul-style Timer",
             "description": "A timer app for 1v1 games, modeled after the Mahjong Soul app.",
-            "link": "pages/MahjongsoulTimer"
+            "link": "pages/MahjongsoulTimer",
+            "visible": false
         },
         {
             "title": "Double-entry Household Budget App",
             "description": "A customizable budgeting app inspired by double-entry bookkeeping.",
-            "link": "pages/DoubleBookkeeping"
+            "link": "pages/DoubleBookkeeping",
+            "visible": false
         }
     ],
     "programmingLanguages": [
